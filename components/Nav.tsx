@@ -109,11 +109,12 @@ export default function Nav() {
             {avatarURL ? (
               <div className="link dim white dib v-mid">
                 <Image
-                  onClick={logout}
-                  height={20}
-                  width={20}
-                  src={avatarURL}
-                />
+                 onClick={logout}
+                 height={20}
+                 width={20}
+                 src={avatarURL}
+                 alt="Avatar"
+                 />
               </div>
             ) : (
               <Link href="/login">
